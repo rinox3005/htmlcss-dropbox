@@ -8,14 +8,31 @@
 /* LAYOUT */
 
 header {
-    position: fixed;
+    /* position: fixed; */
     background-color: #ff6900;
     width: 100vw;
     height: 80px;
     z-index: 1;
 }
 
-.box-h {}
+.jumbo {
+    width: 100vw;
+    height: 800px;
+    background-color: aqua;
+}
+
+.box-jumbo {
+    width: 70vw;
+    height: 800px;
+}
+
+.box1 {
+    width: 60vw;
+    height: 1500px;
+    background-color: blueviolet;
+}
+
+
 
 /* UTILITY */
 
@@ -41,11 +58,30 @@ header {
     width: 40%;
 }
 
+.col-33 {
+    width: calc(100% / 3);
+}
+
 .align-center {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+
 .bg-green {
     background-color: rgb(59, 255, 20);
+    border: 1px solid black;
+}
+
+.bg-blue {
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.bg-grey {
+    background-color: grey;
     border: 1px solid black;
 }
