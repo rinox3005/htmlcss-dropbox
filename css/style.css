@@ -38,21 +38,19 @@ header {
 }
 
 .box2 {
-    width: 60vw;
-    height: 600px;
-    background-color: red;
-    margin: 0 auto;
+    width: 56vw;
+    margin: 100px auto;
 }
 
 .box3 {
-    width: 60vw;
+    width: 56vw;
     height: 1000px;
     background-color: rgb(203, 6, 221);
     margin: 0 auto;
 }
 
 .box4 {
-    width: 60vw;
+    width: 56vw;
     height: 300px;
     background-color: rgb(221, 121, 6);
     margin: 0 auto;
@@ -72,14 +70,14 @@ header {
 }
 
 .box7 {
-    width: 60vw;
+    width: 56vw;
     height: 100%;
     background-color: rgb(6, 221, 167);
     margin: 0 auto;
 }
 
 .box8 {
-    width: 60vw;
+    width: 56vw;
     height: 600px;
     background-color: rgb(6, 221, 167);
     margin: 0 auto;
@@ -251,8 +249,13 @@ h1 {
 }
 
 .ml-45 {
-    margin-left: 47px;
+    margin-left: 45px;
 }
+
+.ml-40 {
+    margin-left: 40px;
+}
+
 
 .mr-50 {
     margin-right: 50px;
@@ -371,4 +374,26 @@ hr {
     position: absolute;
     top: 70px;
     right: 10px;
+}
+
+.img-full {
+    height: 100%;
+    width: 100%;
+}
+
+.font-size-30 {
+    font-size: 25px;
+}
+
+.partner {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 95px;
+}
+
+.btn-partner {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 1px solid grey;
 }
