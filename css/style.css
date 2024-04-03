@@ -552,3 +552,12 @@ li i {
     width: 100px;
     margin-top: 80px;
 }
+
+.fa-arrow-down {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.in-line {
+    display: inline-block
+}
