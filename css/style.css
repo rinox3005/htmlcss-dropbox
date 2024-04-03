@@ -44,15 +44,11 @@ header {
 
 .box3 {
     width: 56vw;
-    height: 1000px;
-    background-color: rgb(203, 6, 221);
     margin: 0 auto;
 }
 
 .box4 {
     width: 56vw;
-    height: 300px;
-    background-color: rgb(221, 121, 6);
     margin: 0 auto;
 }
 
@@ -177,6 +173,7 @@ footer {
     border: 1px solid black;
 }
 
+
 /* STYLE */
 
 ul {
@@ -232,6 +229,10 @@ h1 {
     padding: 30px 0;
 }
 
+.py-20 {
+    padding: 20px 0;
+}
+
 .py-10 {
     padding: 10px 0;
 }
@@ -261,8 +262,16 @@ h1 {
     margin-right: 50px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
 .pb-40 {
     padding-bottom: 40px
+}
+
+.p-20 {
+    padding: 40px;
 }
 
 .jumbo-img {
@@ -396,4 +405,8 @@ hr {
     padding: 10px 15px;
     font-size: 15px;
     border: 1px solid grey;
+}
+
+.img-width-100 {
+    width: 100%;
 }
