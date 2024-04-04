@@ -21,7 +21,7 @@ header {
 }
 
 .jumbo {
-    width: 100vw;
+    max-width: 100%;
     background-color: rgb(180, 208, 231);
     padding-top: 70px;
     margin-bottom: 120px;
@@ -53,12 +53,12 @@ header {
 }
 
 .box5 {
-    width: 100vw;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .box6 {
-    width: 100vw;
+    max-width: 100%;
     background-color: rgb(180, 208, 231);
     margin: 0 auto;
 }
@@ -80,7 +80,7 @@ header {
 }
 
 footer {
-    width: 100vw;
+    max-width: 100%;
     background-color: rgb(0, 0, 0);
     margin: 0 auto;
 }
@@ -265,6 +265,8 @@ h1 {
     padding-right: 100px;
     font-size: 18px;
 }
+
+/* UTILITY */
 
 .py-50 {
     padding: 50px 0;
